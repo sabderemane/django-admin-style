@@ -1,15 +1,21 @@
 
-====
 django-admin-style
 =====
-|pypi| |build| |coverage|
+
+.. image:: https://img.shields.io/github/v/release/sabderemane/django-admin-style   :alt: GitHub release (latest by date) 
+.. image:: https://img.shields.io/pypi/v/django-admin-style   :alt: PyPI
+.. image:: https://img.shields.io/readthedocs/django-admin-style   :alt: Read the Docs
+.. image:: https://img.shields.io/github/last-commit/sabderemane/django-admin-style   :alt: GitHub last commit
 
 Create a django admin more sexy than the default one
 
 Installation
 --------------
-Need to have Python and django installed before.
-You can install this package with pip: `pip install djangocms-admin-style`
+Python and Django are required.
+
+You can install this package with pip::
+
+    pip install djangocms-admin-style
 
 
 Quick start
