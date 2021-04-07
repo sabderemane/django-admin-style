@@ -1,0 +1,47 @@
+h1 {
+  color: grey;
+  padding-top: 20px;
+  padding-left: 40px;
+
+}
+
+/* Header */
+
+#header {
+  color: lightcyan;
+}
+
+#branding h1, 
+#branding h1 a:link, 
+#branding h1 a:visited {
+  color: lightcyan;
+}
+
+
+/* Toolbar */
+
+#toolbar {
+  border: none;
+  background: transparent;
+}
+
+
+/* Sections */
+
+.module caption {
+  background: transparent;
+  border-bottom: 1px solid black;
+}
+
+tr:nth-child(even), 
+tr:nth-child(even) .errorlist, 
+tr:nth-child(odd) + .row-form-errors, 
+tr:nth-child(odd) + .row-form-errors .errorlist {
+  background: transparent;
+}
+
+a.section:link, a.section:visited {
+  color: black;
+}
+
+

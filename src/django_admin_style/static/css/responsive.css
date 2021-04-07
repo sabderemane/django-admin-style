@@ -1,0 +1,15 @@
+.colMS {
+  margin-right: 0;
+}
+
+.colMS #content-main {
+  display: inline-block;
+  width: calc(100% - 340px);
+  padding: 0 40px;
+}
+
+@media (max-width: 1024px) {
+  .dashboard #content {
+      width: 100% !important;
+  }
+}
