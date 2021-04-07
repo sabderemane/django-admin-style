@@ -123,5 +123,9 @@ logs
 npm-debug.log*
 node_modules/
 
+# VsCode
+.vscode/*
+*.code-workspace
+
 # Misc
 .DS_Store
