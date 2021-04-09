@@ -25,12 +25,31 @@ h1 {
   background: transparent;
 }
 
+/* Content */
+#content {
+  padding: 20px 0 0 0;
+}
+
+#content-wrapper {
+  display: flex;
+}
 
 /* Sections */
 
 .module caption {
   background: transparent;
   border-bottom: 1px solid black;
+}
+
+
+thead th {
+  background: transparent;
+  color: #666;
+  border-top: none;
+}
+
+thead th a:link, thead th a:visited {
+  color: #666;
 }
 
 tr:nth-child(even), 

@@ -12,3 +12,7 @@
   margin-top: -64px;
   margin-right: 0;
 }
+
+.changelist-form-group {
+  display: flex;
+}
