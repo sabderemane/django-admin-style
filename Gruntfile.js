@@ -10,7 +10,7 @@ module.exports = function(grunt) {
       },
       target: {
         files: {
-          'django_admin_style/static/django_admin_style/css/style.min.css': ['django_admin_style/static/css/**.css']
+          'src/django_admin_style/static/django_admin_style/css/style.min.css': ['src/django_admin_style/static/css/**.css']
         }
       }
     }
