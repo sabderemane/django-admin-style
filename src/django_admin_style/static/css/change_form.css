@@ -1,0 +1,4 @@
+
+.inline-group ul.tools a.add, .inline-group div.add-row a, .inline-group .tabular tr.add-row td a {
+  background: none;
+}

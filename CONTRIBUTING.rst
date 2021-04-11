@@ -25,7 +25,8 @@ You want to contribute some code? Great! Here are a few steps to get you started
 
 #. **Fork the repository on GitHub**
 #. **Clone your fork and create a branch for the code you want to add**
-#. **Create a new virtualenv and install the package in development mode**
+#. **Copy the folder django_admin_style at the root of your project**
+#. **Add django_admin_style in INSTALLED_PACKAGE and run the command xxx to have css files watched**
 
 
 #. **Update documentation**

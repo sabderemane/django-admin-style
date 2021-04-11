@@ -1,0 +1,107 @@
+.changelist-form-group {
+  display: flex;
+}
+
+.changelist-form-tools {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  padding-right: 0;
+}
+
+#changelist .actions .button,
+#toolbar form input[type="submit"] {
+  border: 1px solid #e5e5e5;
+  padding: 8px 15px;
+  background: #e5e5e5;
+  box-shadow: none;
+  height: auto;
+}
+
+#changelist .actions .button {
+  padding: 9px 15px;
+}
+
+#changelist .actions {
+  padding: 10px 0;
+}
+
+#changelist .actions select,
+#toolbar #searchbar {
+  height: auto;
+}
+
+#changelist .actions select {
+  padding: 6px 15px;
+  margin-left: 0;
+}
+
+#changelist-filter {
+  position: relative;
+  min-height: 400px;
+  margin: 0;
+}
+
+#changelist-filter h2 {
+  background: none;
+  padding: 16px;
+  margin-top: 0;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #eaeaea;
+  text-transform: initial;
+  font-size: 18px;
+  font-weight: 400;
+  color: #333;
+}
+
+
+#toolbar #searchbar {
+  padding: 8px 15px;
+}
+
+#toolbar {
+  padding: 0;
+  margin-bottom: 0;
+  border: none;
+  background: transparent;
+}
+
+.object-tools li {
+  height: auto;
+}
+
+ul.object-tools {
+  padding-left: 0;
+  margin: 0;
+}
+
+.object-tools a:link, 
+.object-tools a:visited {
+  background: transparent;
+  border: 1px solid #417690;
+  color: #417690;
+}
+
+.object-tools a:focus, 
+.object-tools a:hover {
+  background: transparent;
+  border: 1px solid #78afc7;
+  color: #78afc7;
+}
+
+.object-tools a.viewsitelink, 
+.object-tools a.golink, 
+.object-tools a.addlink {
+  padding-right: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.object-tools a.viewsitelink i, 
+.object-tools a.golink i, 
+.object-tools a.addlink i {
+  font-size: 13px;
+  line-height: 20px;
+  padding-left: 5px;
+}

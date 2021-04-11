@@ -1,3 +1,7 @@
+.dashboard h1 {
+  padding-left: 40px;
+}
+
 .dashboard #content {
   height: 100%;
   width: 100%;
@@ -7,12 +11,10 @@
 #content-related {
   display: inline-block;
   width: 260px;
-  float: none;
   height: 100%;
-  margin-top: -64px;
   margin-right: 0;
 }
 
-.changelist-form-group {
-  display: flex;
+#content-related .actionlist li {
+  padding-left: 0;
 }

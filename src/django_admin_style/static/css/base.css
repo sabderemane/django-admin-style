@@ -1,8 +1,37 @@
 h1 {
   color: grey;
   padding-top: 20px;
-  padding-left: 40px;
+}
 
+
+/* Fields */
+input, textarea, select, .form-row p, form .button {
+  padding: 10px 15px;
+}
+
+
+i {
+  padding-right: 5px;
+}
+
+.addlink,
+.changelink, 
+.viewlink, 
+.inlinechangelink,
+.deletelink {
+  background: none;
+}
+
+.addlink i,
+.changelink i, 
+.viewlink i, 
+.inlinechangelink i,
+.deletelink i {
+  font-size: 16px;
+}
+
+.button, input[type=submit], input[type=button], .submit-row input, a.button {
+  padding: 10px 15px;
 }
 
 /* Header */
@@ -18,16 +47,10 @@ h1 {
 }
 
 
-/* Toolbar */
-
-#toolbar {
-  border: none;
-  background: transparent;
-}
-
 /* Content */
+
 #content {
-  padding: 20px 0 0 0;
+  padding: 20px 20px 0 20px;
 }
 
 #content-wrapper {
@@ -36,11 +59,17 @@ h1 {
 
 /* Sections */
 
-.module caption {
+.module h2, 
+.module caption, 
+.inline-group h2 {
+  color: #666;
   background: transparent;
   border-bottom: 1px solid black;
 }
 
+td {
+  vertical-align: middle;
+}
 
 thead th {
   background: transparent;

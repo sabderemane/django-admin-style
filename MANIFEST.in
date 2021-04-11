@@ -1,6 +1,6 @@
 include LICENSE
 include README.rst
-recursive-include django_admin_style *
-recursive-include docs *
-recursive-exclude django_admin_style/static/css *
+recursive-include src/django_admin_style *
+recursive-include src/docs *
+recursive-exclude src/django_admin_style/static/css *
 recursive-exclude * *.py[co]
