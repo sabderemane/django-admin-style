@@ -15,7 +15,7 @@ Python and Django are required.
 
 You can install this package with pip::
 
-    pip install djangocms-admin-style
+    pip install django-admin-style
 
 
 Quick start
