@@ -7,7 +7,7 @@ django-admin-style
 .. image:: https://img.shields.io/readthedocs/django-admin-style   :alt: Read the Docs
 .. image:: https://img.shields.io/github/last-commit/sabderemane/django-admin-style   :alt: GitHub last commit
 
-Create a django admin more sexy than the default one
+Change the default admin to something more fresh
 
 Installation
 --------------

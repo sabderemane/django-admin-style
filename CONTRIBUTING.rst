@@ -26,7 +26,7 @@ You want to contribute some code? Great! Here are a few steps to get you started
 #. **Fork the repository on GitHub**
 #. **Clone your fork and create a branch for the code you want to add**
 #. **Copy the folder django_admin_style at the root of your project**
-#. **Add django_admin_style in INSTALLED_PACKAGE and run the command xxx to have css files watched**
+#. **Add django_admin_style in INSTALLED_PACKAGE and run the command ``python manage.py migrate`` to have css files watched**
 
 
 #. **Update documentation**
@@ -46,25 +46,10 @@ You want to contribute some code? Great! Here are a few steps to get you started
    Incomplete/Work In Progress pull requests are encouraged, because they allow you to get feedback and help more
    easily.
 
-#. **Your code must pass all the required travis jobs before it is merged**
+#. **Your code must pass all the required GitHub Actions before it is merged**
 
-   As of now, this consists of running on the supported Python, django (see README),
+   As of now, this consists of running on the supported Python, Django (see README),
    and building the docs succesfully.
-
-******************
-Maintainer's notes
-******************
-
-Release checklist
-=================
-
-* update ``docs/changelog.rst`` with changes since the last tagged version
-* commit & tag the release - ``git tag x.x.x -m "Release version x.x.x"``
-* push using ``git push --follow-tags``
-* verify that `GitHub Actions`_ has built the tag and succesfully published the release to `PyPI`_
-* publish release notes `on GitHub`_
-* start the `ReadTheDocs build`_ if it has not already started
-* deploy the live demo `on Heroku`_
 
 
 .. _GitHub Actions: https://github.com/sabderemane/django-admin-style/actions
