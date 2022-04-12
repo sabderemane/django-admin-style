@@ -4,12 +4,24 @@
 
 .colMS #content-main {
   display: inline-block;
-  width: calc(100% - 340px);
+  width: calc(100% - 260px);
   padding: 0 40px;
 }
 
 @media (max-width: 1024px) {
   .dashboard #content {
       width: 100% !important;
+  }
+}
+
+@media (max-width: 767px) {
+  #container > .main {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1024px) {
+  #main > #content-related {
+    margin-right: 0;
   }
 }
