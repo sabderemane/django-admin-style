@@ -1,0 +1,97 @@
+h1 {
+  color: var(--close-button-bg);
+  padding-top: 20px;
+}
+
+
+/* Fields */
+input, textarea, select, .form-row p, form .button {
+  padding: 10px 15px;
+}
+
+
+i {
+  padding-right: 5px;
+}
+
+.addlink,
+.changelink, 
+.viewlink, 
+.inlinechangelink,
+.deletelink {
+  background: none;
+}
+
+.addlink i,
+.changelink i, 
+.viewlink i, 
+.inlinechangelink i,
+.deletelink i {
+  font-size: 16px;
+}
+
+.button, input[type=submit], input[type=button], .submit-row input, a.button {
+  padding: 10px 15px;
+}
+
+/* Header */
+
+#header {
+  color: lightcyan;
+}
+
+#header a:link, #header a:visited {
+  color: var(--primary-fg);
+}
+
+#branding h1, 
+#branding h1 a:link, 
+#branding h1 a:visited {
+  color: lightcyan;
+}
+
+
+/* Content */
+
+#content {
+  padding: 20px 20px 0 20px;
+}
+
+#content-wrapper {
+  display: flex;
+}
+
+/* Sections */
+
+.module h2, 
+.module caption, 
+.inline-group h2 {
+  color: var(--header-link-color);
+  background: transparent;
+  border-bottom: 1px solid var(--header-link-color);
+}
+
+td {
+  vertical-align: middle;
+}
+
+thead th {
+  background: transparent;
+  color: var(--header-link-color);
+  border-top: none;
+}
+
+thead th a:link, thead th a:visited {
+  color: var(--header-link-color);
+}
+
+tr:nth-child(even), 
+tr:nth-child(even) .errorlist, 
+tr:nth-child(odd) + .row-form-errors, 
+tr:nth-child(odd) + .row-form-errors .errorlist {
+  background: transparent;
+}
+
+
+
+

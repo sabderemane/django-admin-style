@@ -1,0 +1,12 @@
+{
+  "name": "django-admin-style",
+  "private": true,
+  "scripts": {
+    "minify": "grunt cssmin"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-cssmin": "^4.0.0"
+  }
+}

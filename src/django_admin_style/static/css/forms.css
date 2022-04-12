@@ -1,0 +1,20 @@
+input[type=text], 
+input[type=password], 
+input[type=email], 
+input[type=url], 
+input[type=number], 
+input[type=tel], 
+textarea, 
+select, 
+.vTextField {
+  padding: 8px 5px;
+  height: auto;
+}
+
+.aligned label {
+  padding: 4px 10px 0 0;
+} 
+
+.vTextField {
+  width: 40em;
+}
