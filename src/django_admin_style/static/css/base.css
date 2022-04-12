@@ -1,5 +1,5 @@
 h1 {
-  color: grey;
+  color: var(--close-button-bg);
   padding-top: 20px;
 }
 
@@ -40,6 +40,10 @@ i {
   color: lightcyan;
 }
 
+#header a:link, #header a:visited {
+  color: var(--primary-fg);
+}
+
 #branding h1, 
 #branding h1 a:link, 
 #branding h1 a:visited {
@@ -62,9 +66,9 @@ i {
 .module h2, 
 .module caption, 
 .inline-group h2 {
-  color: #666;
+  color: var(--header-link-color);
   background: transparent;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid var(--header-link-color);
 }
 
 td {
@@ -73,12 +77,12 @@ td {
 
 thead th {
   background: transparent;
-  color: #666;
+  color: var(--header-link-color);
   border-top: none;
 }
 
 thead th a:link, thead th a:visited {
-  color: #666;
+  color: var(--header-link-color);
 }
 
 tr:nth-child(even), 
@@ -88,8 +92,6 @@ tr:nth-child(odd) + .row-form-errors .errorlist {
   background: transparent;
 }
 
-a.section:link, a.section:visited {
-  color: black;
-}
+
 
 

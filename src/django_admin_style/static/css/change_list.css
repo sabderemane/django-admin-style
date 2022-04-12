@@ -12,9 +12,7 @@
 
 #changelist .actions .button,
 #toolbar form input[type="submit"] {
-  border: 1px solid #e5e5e5;
   padding: 8px 15px;
-  background: #e5e5e5;
   box-shadow: none;
   height: auto;
 }
@@ -48,11 +46,11 @@
   padding: 16px;
   margin-top: 0;
   margin-bottom: 16px;
-  border-bottom: 1px solid #eaeaea;
+  border-bottom: 1px solid var(--header-link-color);
   text-transform: initial;
   font-size: 18px;
   font-weight: 400;
-  color: #333;
+  color: var(--header-link-color);
 }
 
 
